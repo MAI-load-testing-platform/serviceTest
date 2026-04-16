@@ -19,7 +19,7 @@ public class ProductController {
 
     @GetMapping("/")
     public String products(@RequestParam(name = "title", required = false)String title,  Model model){
-        // --- ИСКУССТВЕННАЯ ДЕГРАДАЦИЯ ---
+        // --- ИСКУССТВЕННАЯ ДЕГРАДАЦИЯ --
         // CPU
 //        int n = 20000;
 //        java.math.BigInteger result = java.math.BigInteger.ONE;
